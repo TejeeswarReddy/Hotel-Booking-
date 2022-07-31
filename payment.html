@@ -6,6 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment</title>
 </head>
+<style>
+  html, body {
+  margin:0px;
+  height:100%;
+  background:#e0e0e0;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+.citycards{
+    background-color: rgb(132,136,139);
+    width: 50%;
+    height: 20%;
+    margin: 2% 25% 2% 25%;
+    
+}
+.info{
+    margin: 2% 2% 2% 2%;
+}
+.border{
+    border: 1px solid black;
+    margin: 2% 2% 2% 2%;
+    border-radius: 5px;
+    padding: 1% 2% 1% 2%;
+}
+</style>
 <body>
     <div>
         <header>
@@ -13,16 +42,22 @@
             <a href="login.html" target="_blank">Login</a>
         </header>
         <div>
+            <div class=citycards>
             <img style="height: 500px; width: 500px;" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
             <h3>Radission Blu Hotel</h3>
             <p>#38 of 1,289 hotels in New Delhi</p>
             <p>National Highway 8, New Delhi 110017 India</p>
+            </div>
+            <div class="info">
             <p><b>Name:</b> John Doe</p>
             <p><b>Number of adults:</b> 2</p>
             <p><b>Check-in Date:</b> 06/06/2020</p>
             <p><b>Check-out Date:</b> 08/06/2020</p>
+            </div>
+            <div class="border">
             <p><b>Tariff Breakdowm:</b> Rs.1000 x 2 Adults x 5 Nights</p>
             <p><b>Total Amount:</b> Rs.1000</p>
+            </div>
         </div>
         <footer>
             <a href="payment.html">Pay Now</a><br>
